@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+    },
+    "pattern": [
+        "DIS",
+        "ABL",
+        "ED!"
+    ],
+    "result": {
+        "id": "minecraft:candle"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+        "bonus_rolls": 0.0,
+        "entries": [
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:candle",
+            "functions": [
+                {"function": "set_components",
+                    "components": {
+                        "item_model": "arbiterlib:candle",
+                        "item_name": {"translate": "block.minecraft.candle","fallback": "Candle"},
+                        "custom_data": {
+                            "arbiterlib": {"namespace":"raptap","id":"candle"}
+                        },
+                        "lore": [
+                            {"translate":"item.raptap.candle.description", "fallback": "Burns brighter in a church.", "color": "gray", "italic": false},
+                            {"translate":"id.minecraft", "fallback": "Minecraft","color": "blue", "italic": false}
+                        ]
+                    }
+                }
+            ]
+            }
+        ],
+        "rolls": 1.0
+        }
+    ]
+}

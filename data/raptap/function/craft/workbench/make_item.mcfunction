@@ -1,0 +1,1 @@
+$execute if items entity @s $(slot) *[custom_data~{arbiterlib:{id:"candle"}}] run function arbiterlib:craft/workbench/craft/make_item {namespace:"raptap",item:"candle", loottable:"candle",rarity:"common",item:"candle"}

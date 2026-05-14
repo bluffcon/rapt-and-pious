@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:block_interact",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                "type": "minecraft:item",
+                "conditions": [{"condition": "match_tool", "predicate": {"items": "shears", "predicates": {"enchantments": [{"enchantments": "raptap:garner"}]}}}],
+                "functions": [
+                    {
+                    "add": false,
+                    "count": {"max": 2,"min": 0},
+                    "function": "minecraft:set_count"
+                    },
+                    {"function": "set_components",
+                            "components": {
+                                "!food": {}, "!consumable": {},
+                                "item_model": "arbiterlib:wax",
+                                "item_name": {"translate": "item.raptap.wax","fallback": "Wax"},
+                                "custom_data": {
+                                    "arbiterlib": {"namespace":"raptap","id":"wax"}
+                                },
+                                "lore": [
+                                    {"translate":"item.raptap.wax.description", "fallback": "Used in seals, candles, etc.", "color": "gray", "italic": false},
+                                    {"translate":"id.raptap", "fallback": "Rapt and Pious","color": "blue", "italic": false}
+                                ]
+                            }
+                        }
+                ],
+                "name": "minecraft:poisonous_potato"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                    "add": false,
+                    "count": 3.0,
+                    "function": "minecraft:set_count"
+                    }
+                ],
+                "name": "minecraft:honeycomb"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "minecraft:harvest/beehive"
+}

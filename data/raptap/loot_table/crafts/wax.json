@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+        "bonus_rolls": 0.0,
+        "entries": [
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:poisonous_potato",
+            "functions": [
+                {"function": "set_components",
+                    "components": {
+                        "!food": {}, "!consumable": {},
+                        "item_model": "arbiterlib:wax",
+                        "item_name": {"translate": "item.raptap.wax","fallback": "Wax"},
+                        "custom_data": {
+                            "arbiterlib": {"namespace":"raptap","id":"wax"}
+                        },
+                        "lore": [
+                            {"translate":"item.raptap.wax.description", "fallback": "Used in seals, candles, etc.", "color": "gray", "italic": false},
+                            {"translate":"id.raptap", "fallback": "Rapt and Pious","color": "blue", "italic": false}
+                        ]
+                    }
+                }
+            ]
+            }
+        ],
+        "rolls": 1.0
+        }
+    ]
+}

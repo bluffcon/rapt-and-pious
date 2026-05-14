@@ -1,0 +1,38 @@
+{
+    "exclusive_set": "#treasure",
+    "description": {"translate": "enchantment.raptap.garner", "fallback": "Garner"},
+    "supported_items": [
+        "minecraft:shears",
+        "iron_hoe",
+        "stone_hoe",
+        "copper_hoe",
+        "diamond_hoe",
+        "golden_hoe",
+        "wooden_hoe",
+        "netherite_hoe"
+    ],
+    "primary_items": [
+        "minecraft:shears",
+        "iron_hoe",
+        "stone_hoe",
+        "copper_hoe",
+        "diamond_hoe",
+        "golden_hoe",
+        "wooden_hoe",
+        "netherite_hoe"
+    ],
+    "weight": 6,
+    "max_level": 1,
+    "min_cost": {
+        "base": 2,
+        "per_level_above_first": 1
+    },
+    "max_cost": {
+        "base": 3,
+        "per_level_above_first": 2
+    },
+    "anvil_cost": 2,
+    "slots": [
+        "mainhand"
+    ]
+}
