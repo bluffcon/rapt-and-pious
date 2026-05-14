@@ -9,18 +9,36 @@
     {
       "bonus_rolls": 0.0,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot"
-        }
-      ],
-      "rolls": 1.0
+            {
+                "type": "item",
+                "name": "wheat_seeds"
+            }
+        ],
+        "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [{
+          "block": "minecraft:wheat",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "7"
+          }
+        },
+    {"condition": "match_tool","predicate": {"items": "#hoes"}}],
+      "entries": [
+            {
+                "type": "item",
+                "name": "wheat"
+            }
+        ],
+        "rolls": 1.0
     },
     {
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "minecraft:carrots",
+          "block": "minecraft:wheat",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "7"
@@ -45,7 +63,7 @@
               }
             }
           ],
-          "name": "minecraft:carrot"
+          "name": "minecraft:wheat_seeds"
         }
       ],
       "rolls": 1.0
@@ -60,7 +78,7 @@
                         "predicate": {"items": "#hoes", "predicates": {"enchantments": [{"enchantments": "raptap:garner"}]}}
                     },
                     {
-                        "block": "minecraft:carrots",
+                        "block": "minecraft:wheat",
                         "condition": "minecraft:block_state_property",
                         "properties": {
                             "age": "7"
@@ -70,13 +88,13 @@
             "functions": [
                 {
                     "function": "set_count",
-                    "count": {"max": 1,"min": 1}
+                    "count": {"max": 3,"min": 1}
                 }
             ],
-            "name": "minecraft:carrot"
+            "name": "minecraft:wheat_seeds"
             }
         ]
     }
   ],
-  "random_sequence": "minecraft:blocks/carrots"
+  "random_sequence": "minecraft:blocks/wheat"
 }
