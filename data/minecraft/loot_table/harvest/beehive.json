@@ -22,13 +22,13 @@
                                     "arbiterlib": {"namespace":"raptap","id":"wax"}
                                 },
                                 "lore": [
-                                    {"translate":"item.raptap.wax.description", "fallback": "Used in seals, candles, etc.", "color": "gray", "italic": false},
+                                    {"translate":"item.raptap.wax.description", "fallback": "You're missing the ArbiterLib resource pack", "color": "gray", "italic": false},
                                     {"translate":"id.raptap", "fallback": "Rapt and Pious","color": "blue", "italic": false}
                                 ]
                             }
                         }
                 ],
-                "name": "minecraft:poisonous_potato"
+                "name": "minecraft:honeycomb"
                 }
             ],
             "rolls": 1.0
@@ -43,7 +43,22 @@
                     "add": false,
                     "count": 3.0,
                     "function": "minecraft:set_count"
-                    }
+                    },
+                    {"function": "set_components",
+                            "components": {
+                                "food": {"nutrition": 2, "saturation": 3},
+                                "consumable": {"on_consume_effects": [{"type": "play_sound","sound": "entity.bee.hurt"}]},
+                                "item_model": "arbiterlib:honeycomb",
+                                "item_name": {"translate": "item.minecraft.honeycomb","fallback": "Honeycomb"},
+                                "custom_data": {
+                                    "arbiterlib": {"namespace":"raptap","id":"honeycomb"}
+                                },
+                                "lore": [
+                                    {"translate":"item.raptap.honeycomb.description", "fallback": "You're missing the ArbiterLib resource pack", "color": "gray", "italic": false},
+                                    {"translate":"id.minecraft", "fallback": "Minecraft","color": "blue", "italic": false}
+                                ]
+                            }
+                        }
                 ],
                 "name": "minecraft:honeycomb"
                 }

@@ -1,0 +1,50 @@
+{
+    "exclusive_set": "#treasure",
+    "description": [{"translate": "ui.raptap.shard"}, " ", {"translate": "enchantment.raptap.clawing", "fallback": "Clawing"}],
+    "supported_items": [
+        "iron_pickaxe",
+        "diamond_pickaxe",
+        "netherite_pickaxe"
+    ],
+    "primary_items": [
+        "iron_pickaxe",
+        "diamond_pickaxe",
+        "netherite_pickaxe"
+    ],
+    "weight": 3,
+    "max_level": 1,
+    "min_cost": {
+        "base": 4,
+        "per_level_above_first": 2
+    },
+    "max_cost": {
+        "base": 9,
+        "per_level_above_first": 3
+    },
+    "anvil_cost": 4,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "hit_block": [{
+            "effect": {
+                "type": "spawn_particles",
+                "particle": {"type": "large_smoke"},
+                "speed": 0.1,
+                "horizontal_position": {"type": "in_bounding_box"},
+                "horizontal_velocity": {"base": 0},
+                "vertical_position": {"type": "in_bounding_box", "offset": -1},
+                "vertical_velocity": {"base": 0}
+            }, "requirements": [{
+                "condition": "any_of",
+                "terms": [
+                    {"condition": "block_state_property", "block": "lapis_ore"},
+                    {"condition": "block_state_property", "block": "deepslate_lapis_ore"},
+                    {"condition": "block_state_property", "block": "gold_ore"},
+                    {"condition": "block_state_property", "block": "nether_gold_ore"},
+                    {"condition": "block_state_property", "block": "deepslate_gold_ore"}
+                ]
+            }]
+        }]
+    }
+}

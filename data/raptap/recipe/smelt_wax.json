@@ -1,13 +1,8 @@
 {
-    "pools": [
-        {
-        "bonus_rolls": 0.0,
-        "entries": [
-            {
-            "type": "minecraft:item",
-            "name": "minecraft:honeycomb",
-            "functions": [
-                {"function": "set_components",
+    "type": "smelting",
+    "ingredient": "honeycomb",
+    "result": {
+            "id": "minecraft:poisonous_potato",
                     "components": {
                         "!food": {}, "!consumable": {},
                         "item_model": "arbiterlib:wax",
@@ -20,11 +15,8 @@
                             {"translate":"id.raptap", "fallback": "Rapt and Pious","color": "blue", "italic": false}
                         ]
                     }
-                }
-            ]
-            }
-        ],
-        "rolls": 1.0
-        }
-    ]
+            },
+            "category": "misc",
+            "cookingtime": 60,
+            "experience": 0.1
 }

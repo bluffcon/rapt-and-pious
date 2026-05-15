@@ -1,0 +1,1 @@
+execute if items entity @s container.0 *[custom_data~{arbiterlib:{item:"clawing_marker"}}] run function raptap:enchants/clawing/determine
