@@ -2,7 +2,7 @@
     "type": "smelting",
     "ingredient": "honeycomb",
     "result": {
-            "id": "minecraft:poisonous_potato",
+            "id": "minecraft:honeycomb",
                     "components": {
                         "!food": {}, "!consumable": {},
                         "item_model": "arbiterlib:wax",
