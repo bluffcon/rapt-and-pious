@@ -27,10 +27,10 @@ Turns all gold ores and lapis ores into lucky blocks! They don't drop their outp
 
 Possible outcomes:
 - Drops experience orbs for a total of +20 XP
-- Repairs tool in hand 10% of its durability, tool in offhand 2.5% of its durability, and all tools in the hotbar 0.2% of their durability for all players nearby
+- Repairs tool in hand 3% of its durability, tool in offhand 2.5% of its durability, and all tools in the hotbar 0.2% of their durability for all players nearby
 - Spawns an invisible clawingfish with 20 HP and high speed: killing it has a chance to give some related rewards, such as golden apples, lapis, and weak enchanted books
 - Drops gold ingots/nuggets/lapis in a random quantity. Drop and amounts depend on the block
-- Heals all players nearby for full health and full hunger while damaging their tool in hand 2% of its max durability
+- Heals all players nearby for full health and part of full hunger while damaging their tool in hand 2% of its max durability
 - Does nothing, instead replaces the block back to the original letting you break it again!
 
 

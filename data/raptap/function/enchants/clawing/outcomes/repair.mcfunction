@@ -1,4 +1,4 @@
-execute as @a[distance=..5] run item modify entity @s weapon.mainhand {function:"set_damage", damage:0.1,add:true}
+execute as @a[distance=..5] run item modify entity @s weapon.mainhand {function:"set_damage", damage:0.03,add:true}
 execute as @a[distance=..5] run item modify entity @s weapon.offhand {function:"set_damage", damage:0.025,add:true}
 
 execute as @a[distance=..5] run item modify entity @s hotbar.0 {function:"set_damage", damage:0.002,add:true}
