@@ -15,7 +15,7 @@
                             "arbiterlib": {"namespace":"raptap","id":"candle"}
                         },
                         "lore": [
-                            {"translate":"item.raptap.candle.description", "fallback": "Burns brighter in a church.", "color": "gray", "italic": false},
+                            {"translate":"item.raptap.candle.description", "fallback": "You're missing the ArbiterLib resource pack", "color": "gray", "italic": false},
                             {"translate":"id.minecraft", "fallback": "Minecraft","color": "blue", "italic": false}
                         ]
                     }

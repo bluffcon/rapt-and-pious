@@ -11,7 +11,7 @@
       "entries": [
             {
                 "type": "item",
-                "name": "wheat_seeds"
+                "name": "beetroot_seeds"
             }
         ],
         "rolls": 1.0
@@ -19,17 +19,20 @@
     {
       "bonus_rolls": 0.0,
       "conditions": [{
-          "block": "minecraft:wheat",
+          "block": "minecraft:beetroots",
           "condition": "minecraft:block_state_property",
           "properties": {
-            "age": "7"
+            "age": "3"
           }
         },
     {"condition": "match_tool","predicate": {"items": "#hoes"}}],
       "entries": [
             {
                 "type": "item",
-                "name": "wheat"
+                "name": "beetroot",
+                "functions": [
+                    {"function": "set_count", "count": {"max": 2,"min": 1}}
+                ]
             }
         ],
         "rolls": 1.0
@@ -38,10 +41,10 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "minecraft:wheat",
+          "block": "minecraft:beetroots",
           "condition": "minecraft:block_state_property",
           "properties": {
-            "age": "7"
+            "age": "3"
           }
         },
         {"condition": "match_tool",
@@ -63,7 +66,7 @@
               }
             }
           ],
-          "name": "minecraft:wheat_seeds"
+          "name": "minecraft:beetroot_seeds"
         }
       ],
       "rolls": 1.0
@@ -78,20 +81,20 @@
                         "predicate": {"items": "#hoes", "predicates": {"enchantments": [{"enchantments": "raptap:garner"}]}}
                     },
                     {
-                        "block": "minecraft:wheat",
+                        "block": "minecraft:beetroots",
                         "condition": "minecraft:block_state_property",
                         "properties": {
-                            "age": "7"
+                            "age": "3"
                         }
                     }
                 ],
             "functions": [
                 {
                     "function": "set_count",
-                    "count": {"max": 3,"min": 1}
+                    "count": {"max": 3,"min": 2}
                 }
             ],
-            "name": "minecraft:wheat_seeds"
+            "name": "minecraft:beetroot_seeds"
             }
         ]
     },
@@ -105,20 +108,20 @@
                         "predicate": {"items": "#hoes", "predicates": {"enchantments": [{"enchantments": "raptap:garner"}]}}
                     },
                     {
-                        "block": "minecraft:wheat",
+                        "block": "minecraft:beetroots",
                         "condition": "minecraft:block_state_property",
                         "properties": {
-                            "age": "7"
+                            "age": "3"
                         }
                     }
                 ],
             "functions": [
                 {
                     "function": "set_count",
-                    "count": {"max": 1,"min": 0}
+                    "count": {"max": 3,"min": 1}
                 }
             ],
-            "name": "minecraft:wheat"
+            "name": "minecraft:beetroot"
             }
         ]
     },
@@ -127,7 +130,7 @@
         "entries": [
             {
                 "type": "item",
-                "name": "wheat",
+                "name": "beetroot",
                 "functions": [
                     {"function": "set_count", "count": 2}
                 ]
@@ -144,5 +147,5 @@
         ]
     }
   ],
-  "random_sequence": "minecraft:blocks/wheat"
+  "random_sequence": "minecraft:blocks/beetroot"
 }

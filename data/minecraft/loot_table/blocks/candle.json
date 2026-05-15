@@ -12,10 +12,10 @@
                         "item_model": "arbiterlib:candle",
                         "item_name": {"translate": "block.minecraft.candle","fallback": "Candle"},
                         "custom_data": {
-                            "arbiterlib": {"namespace":"raptap","id":"candle"}
+                            "arbiterlib": {"namespace":"raptap","id":"candle", "craft":"crafted"}
                         },
                         "lore": [
-                            {"translate":"item.raptap.candle.description", "fallback": "Burns brighter in a church.", "color": "gray", "italic": false},
+                            {"translate":"item.raptap.candle.description", "fallback": "You're missing the ArbiterLib resource pack", "color": "gray", "italic": false},
                             {"translate":"id.minecraft", "fallback": "Minecraft","color": "blue", "italic": false}
                         ]
                     }

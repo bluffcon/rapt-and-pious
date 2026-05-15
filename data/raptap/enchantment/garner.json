@@ -1,6 +1,6 @@
 {
     "exclusive_set": "#treasure",
-    "description": {"translate": "enchantment.raptap.garner", "fallback": "Garner"},
+    "description": [{"translate": "ui.raptap.cross", "fallback": "†"}, " ", {"translate": "enchantment.raptap.garner", "fallback": "Garner"}],
     "supported_items": [
         "minecraft:shears",
         "iron_hoe",

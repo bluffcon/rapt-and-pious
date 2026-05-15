@@ -76,6 +76,143 @@
             "name": "minecraft:carrot"
             }
         ]
+    },
+    {
+        "rolls": 1.0,
+        "entries": [
+            {
+                "type": "item",
+                "name": "carrot",
+                "functions": [
+                    {"function": "set_count", "count": 1}
+                ]
+            }
+        ],
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type": "villager"
+                }
+            }
+        ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "golden_carrot",
+          "conditions": [
+                    {"condition": "match_tool",
+                        "predicate": {"items": "#hoes", "predicates": {"enchantments": [{"enchantments": "raptap:garner"}]}}
+                    },
+                    {
+                        "block": "minecraft:carrots",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                            "age": "7"
+                        }
+                    },
+
+                    {
+                      "condition": "any_of",
+                      "terms": [
+                        {
+                      "condition": "all_of",
+                      "terms": [
+                        {
+                          "condition": "match_tool",
+                          "predicate": {
+                            "predicates": {
+                              "enchantments": [{"enchantments": "fortune","levels": 1}]
+                            }
+                          }
+                        },
+                        {"condition": "random_chance", "chance": 0.015}
+                      ]
+                    },
+
+                    {
+                      "condition": "all_of",
+                      "terms": [
+                        {
+                          "condition": "match_tool",
+                          "predicate": {
+                            "predicates": {
+                              "enchantments": [{"enchantments": "fortune","levels": 2}]
+                            }
+                          }
+                        },
+                        {"condition": "random_chance", "chance": 0.035}
+                      ]
+                    },
+
+                    {
+                      "condition": "all_of",
+                      "terms": [
+                        {
+                          "condition": "match_tool",
+                          "predicate": {
+                            "predicates": {
+                              "enchantments": [{"enchantments": "fortune","levels": 3}]
+                            }
+                          }
+                        },
+                        {"condition": "random_chance", "chance": 0.075}
+                      ]
+                    },
+
+                    {
+                      "condition": "all_of",
+                      "terms": [
+                        {
+                          "condition": "match_tool",
+                          "predicate": {
+                            "predicates": {
+                              "enchantments": [{"enchantments": "fortune","levels": 4}]
+                            }
+                          }
+                        },
+                        {"condition": "random_chance", "chance": 0.15}
+                      ]
+                    },
+
+                    {
+                      "condition": "all_of",
+                      "terms": [
+                        {
+                          "condition": "match_tool",
+                          "predicate": {
+                            "predicates": {
+                              "enchantments": [{"enchantments": "fortune","levels": 5}]
+                            }
+                          }
+                        },
+                        {"condition": "random_chance", "chance": 0.25}
+                      ]
+                    },
+
+                    {
+                      "condition": "all_of",
+                      "terms": [
+                        {
+                          "condition": "match_tool",
+                          "predicate": {
+                            "predicates": {
+                              "enchantments": [{"enchantments": "fortune","levels": 0}]
+                            }
+                          }
+                        },
+                        {"condition": "random_chance", "chance": 0.005}
+                      ]
+                    }
+                      ]
+                    }
+          ]
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:blocks/carrots"

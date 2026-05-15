@@ -16,7 +16,7 @@
                             "arbiterlib": {"namespace":"raptap","id":"wax"}
                         },
                         "lore": [
-                            {"translate":"item.raptap.wax.description", "fallback": "Used in seals, candles, etc.", "color": "gray", "italic": false},
+                            {"translate":"item.raptap.wax.description", "fallback": "You're missing the ArbiterLib resource pack", "color": "gray", "italic": false},
                             {"translate":"id.raptap", "fallback": "Rapt and Pious","color": "blue", "italic": false}
                         ]
                     }
