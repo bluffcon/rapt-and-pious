@@ -66,6 +66,8 @@ Possible outcomes (all equal chance):
 - Does nothing, instead replaces the block back to the original letting you break it again!
 
 Here's the result of mining a stack of gold ore blocks next to goats with a pickaxe with Clawing:
+
+
 ![Results](https://github.com/bluffcon/rapt-and-pious/blob/master/screenshots/clawing_stack_goat_ore.png)
 
 
