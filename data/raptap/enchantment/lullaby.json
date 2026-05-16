@@ -5,12 +5,12 @@
     "weight": 1,
     "max_level": 3,
     "min_cost": {
-        "base": 50,
-        "per_level_above_first": 88
+        "base": 1000,
+        "per_level_above_first": 1000
     },
     "max_cost": {
-        "base": 128,
-        "per_level_above_first": 120
+        "base": 1000,
+        "per_level_above_first": 1000
     },
     "anvil_cost": 8,
     "slots": [
@@ -21,7 +21,7 @@
             {"effect": {"type": "set", "value": {"type": "linear", "base": 0, "per_level_above_first": -1}}, "requirements": [
                 {"condition": "time_check", "clock": "minecraft:overworld","value": {"min": 13000, "max": 23500}, "period": 24000}
             ]},
-             {"effect": {"type": "set", "value": 2}, "requirements": [
+             {"effect": {"type": "multiply", "factor": 2}, "requirements": [
                 {"condition": "time_check", "clock": "minecraft:overworld", "value": {"min": 0, "max": 12999}, "period": 24000}
             ]}
         ]

@@ -10,7 +10,7 @@ loot spawn ~ ~ ~ loot entities/spider
 loot spawn ~ ~ ~ loot entities/enderman
 loot spawn ~ ~ ~ loot raptap:other/clawingfish
 
-damage @s 500 indirect_magic by @p
+damage @s 50 raptap:clawing by @p from @p
 
 particle reverse_portal ~ ~ ~ 0.1 0.1 0.1 2 100
 particle block{block_state:{Name:"redstone_block"}} ~ ~ ~ 0.1 0.1 0.1 2 100

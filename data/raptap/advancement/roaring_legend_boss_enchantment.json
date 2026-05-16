@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {"type": "#raptap:roaring_boss"},
+                "killing_blow": {
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "predicates": {
+                                    "enchantments": [
+                                        {
+                                            "enchantments": "raptap:roaring_legend"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "raptap:enchants/roaring_legend/wither"
+    }
+}

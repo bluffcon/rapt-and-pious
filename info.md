@@ -3,6 +3,13 @@ This page comprises current info on all features in Rapt and Pious in detail! If
 
 # Enchantments
 
+There are Church enchantments and also Witch enchantments. They cannot be used together and offer different playstyles.
+
+Some enchantments have tags (eg. Temporary or Chargeable). They are marked in-game with corresponding enchantment name colors.
+- Temporary (Gold): needs an external trigger to activate and do something specific, after which it will disappear from this item.
+- Chargeable (Dark Gray -> Cyan): needs an external trigger to charge, after which it can do something specific.
+- Deathrattle (Italic): activates and does something specific only when the user dies or when this item loses all durability.
+
 ## Church-Aligned
 
 ### Faith
@@ -69,6 +76,16 @@ Here's the result of mining a stack of gold ore blocks next to goats with a pick
 
 
 ![Results](https://github.com/bluffcon/rapt-and-pious/blob/master/screenshots/clawing_stack_goat_ore.png)
+
+
+### Roaring Legend
+> Swords, Spears, Axes
+
+> Anvil cost: 9. Max level: I. Chargeable, Deathrattle
+
+Marks your weapon as a Roaring Legend. Charge this enchantment by killing a boss with this weapon, the Elder Guardian, the Wither, or Ender Dragon, to make it The Roaring Legend.
+
+When the charged The Roaring Legend blade shatters and loses all durability, it casts lightning on all nearby mobs and starts a long thunder lasting for 3 days and 3 nights. Sleeping through the whole thunder is still possible.
 
 
 

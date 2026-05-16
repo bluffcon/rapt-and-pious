@@ -1,0 +1,7 @@
+{
+    "death_message_type": "default",
+    "message_id": "clawing",
+    "scaling": "never",
+    "effects": "burning",
+    "exhaustion": 1
+}

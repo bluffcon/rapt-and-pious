@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "item_durability_changed",
+            "conditions": {
+                "durability": 0,
+                "item": {
+                    "predicates": {
+                        "enchantments": [
+                            {"enchantments": "raptap:true_roaring_legend"}
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "raptap:enchants/roaring_legend/main"
+    }
+}
