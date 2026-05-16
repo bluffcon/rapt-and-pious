@@ -85,7 +85,9 @@ Here's the result of mining a stack of gold ore blocks next to goats with a pick
 
 Marks your weapon as a Roaring Legend. Charge this enchantment by killing a boss with this weapon, the Elder Guardian, the Wither, or Ender Dragon, to make it The Roaring Legend.
 
-When the charged The Roaring Legend blade shatters and loses all durability, it casts lightning on all nearby mobs and starts a long thunder lasting for 3 days and 3 nights. Sleeping through the whole thunder is still possible.
+When the charged The Roaring Legend blade shatters and loses all durability, it casts lightning on all nearby mobs and starts a long thunder lasting for 3 days and 3 nights.
+
+Sleeping through the whole thunder is still possible, but you'll feel strong shame in the morning for not respecting a dead legend.
 
 
 

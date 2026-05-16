@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "slept_in_bed"
+        }
+    },
+    "rewards": {
+        "function": "raptap:enchants/roaring_legend/slept_through"
+    }
+}
