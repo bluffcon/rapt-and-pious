@@ -1,0 +1,19 @@
+{
+    "exclusive_set": "#raptap:witch",
+    "description": [{"translate": "ui.raptap.cross"}, " ", {"translate": "enchantment.raptap.faith", "fallback": "Faith", "color":"gold"}],
+    "supported_items": "#enchantable/durability",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 2,
+        "per_level_above_first": 1
+    },
+    "max_cost": {
+        "base": 7,
+        "per_level_above_first": 2
+    },
+    "anvil_cost": 12,
+    "slots": [
+        "mainhand"
+    ]
+}

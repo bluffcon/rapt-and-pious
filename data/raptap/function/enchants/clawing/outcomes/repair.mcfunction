@@ -14,5 +14,6 @@ execute as @a[distance=..5] run item modify entity @s hotbar.8 {function:"set_da
 execute at @a[distance=..5] run particle happy_villager ~ ~ ~ 0.2 0.1 0.2 0.5 10
 execute at @a[distance=..5] run particle dust{color:-1,scale:0.6} ~ ~0.5 ~ 0.2 0.4 0.2 0.2 30
 execute as @a[distance=..5] run playsound block.anvil.use block @s ~ ~ ~ 0.3 1.2
+particle minecraft:block_marker{block_state:{Name:test_block,Properties:{mode:"start"}}} ~ ~ ~ 0 0 0 0 1 force
 
 kill @s

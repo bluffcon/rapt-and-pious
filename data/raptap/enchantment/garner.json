@@ -1,5 +1,5 @@
 {
-    "exclusive_set": "#treasure",
+    "exclusive_set": "#raptap:witch",
     "description": [{"translate": "ui.raptap.cross"}, " ", {"translate": "enchantment.raptap.garner", "fallback": "Garner"}],
     "supported_items": [
         "minecraft:shears",
@@ -21,17 +21,17 @@
         "wooden_hoe",
         "netherite_hoe"
     ],
-    "weight": 6,
+    "weight": 1,
     "max_level": 1,
     "min_cost": {
         "base": 2,
         "per_level_above_first": 1
     },
     "max_cost": {
-        "base": 3,
+        "base": 7,
         "per_level_above_first": 2
     },
-    "anvil_cost": 2,
+    "anvil_cost": 8,
     "slots": [
         "mainhand"
     ]

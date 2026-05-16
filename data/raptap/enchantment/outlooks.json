@@ -1,0 +1,27 @@
+{
+    "exclusive_set": "#raptap:church",
+    "description": [{"translate": "ui.raptap.shard"}, " ", {"translate": "enchantment.raptap.outlooks", "fallback": "Outlooks", "color":"gold"}],
+    "supported_items": "#enchantable/durability",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 2,
+        "per_level_above_first": 1
+    },
+    "max_cost": {
+        "base": 7,
+        "per_level_above_first": 2
+    },
+    "anvil_cost": 8,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "tick": [{
+            "effect": {
+                "type": "run_function",
+                "function": "raptap:enchants/faith_beliefs/outlooks"
+            }
+        }]
+    }
+}

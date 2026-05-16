@@ -1,0 +1,2 @@
+item modify entity @s weapon.mainhand {function:"set_components","components":{"repair_cost":0}}
+item modify entity @s weapon.mainhand {function:"set_enchantments", enchantments:{"raptap:faith":-1,"raptap:outlooks":-1},add:true}

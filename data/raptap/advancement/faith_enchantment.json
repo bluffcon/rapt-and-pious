@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "any_block_use",
+            "conditions": {
+                "location": [{"condition": "block_state_property", "block": "candle"}],
+                "player": {"equipment": {"mainhand": {"predicates": {"enchantments": [{"enchantments": "raptap:faith"}]}}}}
+            }
+        }
+    },
+    "rewards": {
+        "function": "raptap:enchants/faith_beliefs/faith"
+    }
+}

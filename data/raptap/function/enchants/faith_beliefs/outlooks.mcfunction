@@ -1,0 +1,1 @@
+execute if predicate arbiterlib:on_fire run function raptap:enchants/faith_beliefs/do

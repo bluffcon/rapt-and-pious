@@ -1,9 +1,21 @@
+# Info
+This page comprises current info on all features in Rapt and Pious in detail! If you want to have a blind playthrough, don't look at this page.
+
 # Enchantments
 
 ## Church-Aligned
 
+### Faith
+> Any damageable
+
+> Anvil cost: 6. Max level: I. Temporary
+
+Extinguish a candle with this item in hand to completely reset its anvil repair cost. That will remove this enchantment.
+
 ### Garner
 > Hoes, Shears
+
+> Anvil cost: 4. Max level: I
 
 Garner guarantees additional drops from crops. Since hoes are now required to reap any products from grown crops, Garner is really useful in its field.
 
@@ -18,20 +30,46 @@ Drops for shears:
 - Comb Harvesting: +0-2 wax
 - (no tool) Glow Berries: +1-3 guaranteed
 
+### Lullaby
+> Any damageable
+
+> Anvil cost: 4/8/12. Max level: III
+
+During the day, this tool takes double damage whenever its used. During the night, protects its durability.
+- Level I: at night has no durability loss
+- Level II: at night restores 1 durability when used
+- Level III: at night restores 2 durability when used
+
 ## Witch-Aligned
 
+### Outlooks
+> Any damageable
+
+> Anvil cost: 4. Max level: I. Temporary
+
+Step into a fire with this item in hand to completely reset its anvil repair cost. That will remove this enchantment.
+
 ### Clawing
-> Pickaxes Iron and above
+> Pickaxes of Iron tier and above. Incompatible with Silk Touch
+
+> Anvil cost: 12. Max level: I
 
 Turns all gold ores and lapis ores into lucky blocks! They don't drop their output but instead do something special. Break them to receive random effects!
 
-Possible outcomes:
+Possible outcomes (all equal chance):
 - Drops experience orbs for a total of +20 XP
+- Wrathfully kills a nearby non-player entity and drops its loot 3 times total. If none are found nearby, explodes violently instead. The killing damage source is the nearest player
 - Repairs tool in hand 3% of its durability, tool in offhand 2.5% of its durability, and all tools in the hotbar 0.2% of their durability for all players nearby
-- Spawns an invisible clawingfish with 20 HP and high speed: killing it has a chance to give some related rewards, such as golden apples, lapis, and weak enchanted books
+- Deals damage to nearby players, then spawns an invisible clawingfish (endermite) with 20 HP and high speed: killing it has a chance to give some related rewards, such as golden apples, lapis, and weak enchanted books
 - Drops gold ingots/nuggets/lapis in a random quantity. Drop and amounts depend on the block
 - Heals all players nearby for full health and part of full hunger while damaging their tool in hand 2% of its max durability
 - Does nothing, instead replaces the block back to the original letting you break it again!
+
+|              | Got                                                   | Died | Had fun?   |
+|--------------|-------------------------------------------------------|------|------------|
+| Unenchanted  | 20 Raw Gold                                           | 0    | Not really |
+| Clawing      | 14 Gold Ingots, 6 Gold Nuggets, 2 Lapis, 11 XP levels | 5    | Yeah!!!    |
+
 
 
 # Changes
