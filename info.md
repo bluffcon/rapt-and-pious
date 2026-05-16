@@ -58,17 +58,15 @@ Turns all gold ores and lapis ores into lucky blocks! They don't drop their outp
 
 Possible outcomes (all equal chance):
 - Drops experience orbs for a total of +20 XP
-- Wrathfully kills a nearby non-player entity and drops its loot 3 times total. If none are found nearby, explodes violently instead. The killing damage source is the nearest player
+- Wrathfully kills a nearby non-player mob and drops its loot 3 times total. If none are found nearby, explodes violently instead. If the mob is a goat, drops common mob loot and damages tool in hand 10% of its durability
 - Repairs tool in hand 3% of its durability, tool in offhand 2.5% of its durability, and all tools in the hotbar 0.2% of their durability for all players nearby
 - Deals damage to nearby players, then spawns an invisible clawingfish (endermite) with 20 HP and high speed: killing it has a chance to give some related rewards, such as golden apples, lapis, and weak enchanted books
 - Drops gold ingots/nuggets/lapis in a random quantity. Drop and amounts depend on the block
 - Heals all players nearby for full health and part of full hunger while damaging their tool in hand 2% of its max durability
 - Does nothing, instead replaces the block back to the original letting you break it again!
 
-|              | Got                                                   | Died | Had fun?   |
-|--------------|-------------------------------------------------------|------|------------|
-| Unenchanted  | 20 Raw Gold                                           | 0    | Not really |
-| Clawing      | 14 Gold Ingots, 6 Gold Nuggets, 2 Lapis, 11 XP levels | 5    | Yeah!!!    |
+Here's the result of mining a stack of gold ore blocks next to goats with a pickaxe with Clawing:
+![Results](https://github.com/bluffcon/rapt-and-pious/blob/master/screenshots/clawing_stack_goat_ore.png)
 
 
 

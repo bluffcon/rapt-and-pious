@@ -1,3 +1,5 @@
+execute as @s[type=goat] run return run function raptap:enchants/clawing/outcomes/kill_nearest/goat
+
 data modify storage arbiterlib:temp last_killed_clawing set from entity @s
 data modify entity @s Motion set value [0,0,0]
 

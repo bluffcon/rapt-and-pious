@@ -19,10 +19,10 @@
     "effects": {
         "item_damage": [
             {"effect": {"type": "set", "value": {"type": "linear", "base": 0, "per_level_above_first": -1}}, "requirements": [
-                {"condition": "time_check", "value": {"min": 13000, "max": 23500}, "period": 24000}
+                {"condition": "time_check", "clock": "minecraft:overworld","value": {"min": 13000, "max": 23500}, "period": 24000}
             ]},
              {"effect": {"type": "set", "value": 2}, "requirements": [
-                {"condition": "time_check", "value": {"min": 0, "max": 12999}, "period": 24000}
+                {"condition": "time_check", "clock": "minecraft:overworld", "value": {"min": 0, "max": 12999}, "period": 24000}
             ]}
         ]
     }
