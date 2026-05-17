@@ -1,0 +1,19 @@
+{
+    "exclusive_set": "#raptap:church",
+    "description": [{"translate": "ui.raptap.shard"}, " ", {"translate": "enchantment.raptap.awareness", "fallback": "Awareness", "color":"gold"}],
+    "supported_items": "#enchantable/chest_armor",
+    "weight": 1,
+    "max_level": 10,
+    "min_cost": {
+        "base": 1000,
+        "per_level_above_first": 1000
+    },
+    "max_cost": {
+        "base": 1000,
+        "per_level_above_first": 1000
+    },
+    "anvil_cost": 2,
+    "slots": [
+        "body"
+    ]
+} 

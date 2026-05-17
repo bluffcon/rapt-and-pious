@@ -12,12 +12,14 @@ Some enchantments have tags (eg. Temporary or Chargeable). They are marked in-ga
 
 ## Church-Aligned
 
+
 ### Faith
 > Any damageable
 
 > Anvil cost: 6. Max level: I. Temporary
 
 Extinguish a candle with this item in hand to completely reset its anvil repair cost. That will remove this enchantment.
+
 
 ### Garner
 > Hoes, Shears
@@ -37,6 +39,7 @@ Drops for shears:
 - Comb Harvesting: +0-2 wax
 - (no tool) Glow Berries: +1-3 guaranteed
 
+
 ### Lullaby
 > Any damageable
 
@@ -49,12 +52,14 @@ During the day, this tool takes double damage whenever its used. During the nigh
 
 ## Witch-Aligned
 
+
 ### Outlooks
 > Any damageable
 
 > Anvil cost: 4. Max level: I. Temporary
 
 Step into a fire with this item in hand to completely reset its anvil repair cost. That will remove this enchantment.
+
 
 ### Clawing
 > Pickaxes of Iron tier and above. Incompatible with Silk Touch
@@ -77,21 +82,42 @@ Here's the result of mining a stack of gold ore blocks next to goats with a pick
 
 ![Results](https://github.com/bluffcon/rapt-and-pious/blob/master/screenshots/clawing_stack_goat_ore.png)
 
+(if you accidentally killed a pet, run `/function raptap:enchants/clawing/restore_dead_mob {mob:<the type of your mob>}` as a server admin)
+
 
 ### Roaring Legend
 > Swords, Spears, Axes
 
 > Anvil cost: 9. Max level: I. Chargeable, Deathrattle
 
-Marks your weapon as a Roaring Legend. Charge this enchantment by killing a boss with this weapon, the Elder Guardian, the Wither, or Ender Dragon, to make it The Roaring Legend.
+Marks your weapon as a Roaring Legend. Charge this enchantment by killing a boss with this weapon, the Wither, or the Ender Dragon, to make it The Roaring Legend.
+
+When defeating an enemy using The Roaring Legend, total XP obtained is doubled. For example, killing 500 Endermen at level 0 will grant 48 levels instead of 37. This doesn't work on entities that don't (directly) grant XP on death, such as Snow Golems or the Ender Dragon.
 
 When the charged The Roaring Legend blade shatters and loses all durability, it casts lightning on all nearby mobs and starts a long thunder lasting for 3 days and 3 nights.
 
 Sleeping through the whole thunder is still possible, but you'll feel strong shame in the morning for not respecting a dead legend.
 
 
+### Awareness
+> Chestplates
+
+> Anvil cost: 1 for each level. Max level: X. Temporary
+
+Activates whenever you're attacked by a mob for more than 6 HP (3 hearts). This does not cheat death. Grants the following effects:
+
+- Instant Health I (+4 HP)
+- Strength I (+3 melee dmg, 5 seconds)
+- Regeneration I (+4 HP, 10 seconds)
+- 50% chance to **lose a level of this enchantment**
+
+The effects this enchantment grants do not scale with the enchantment level. High levels simply allow more uses.
+
+You can prevent this enchantment from working if you sneak while getting attacked. This will not trigger any of the effects or the level loss.
+
 
 # Changes
+
 ## Crops
 Crops now only yield if broken with a hoe, otherwise they will drop a single seed, as if they didn't grow fully.
 
@@ -105,7 +131,12 @@ Also:
 - Redstone water cascades no longer work
 - Beetroots now drop 1-2 crops by default (unaffected by Fortune)
 
-## Incompatibilities
+## Trades
+Cleric:
+- Sells Candles at level 2
+
+
+# Incompatibilities
 Rapt and Pious changes a lot of things about the game relating to block loot tables and the enchantment system. If a datapack is incompatible with ours, you can ask us to add its features you're missing to here. Here's how to tell if a datapack will be incompatible:
 - Uses any teams at all. Since every mob and player is assigned a team, this is problematic.
 - Changes these recipes:

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "any_block_use",
+            "conditions": {
+                "location": [{"condition": "block_state_property", "block": "candle", "properties": {"lit": "true"}}]
+            }
+        }
+    },
+    "rewards": {
+        "function": "raptap:trigger/count/lit_candle"
+    }
+}

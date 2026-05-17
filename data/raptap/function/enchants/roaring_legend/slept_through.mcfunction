@@ -1,4 +1,4 @@
-advancement revoke @s only raptap:roaring_legend_sleep
+advancement revoke @s only raptap:enchantment/roaring_legend/sleep
 
 execute unless predicate {condition:"weather_check",thundering:true} unless score .roaring_thunder raptap.state matches 0 run return fail
 

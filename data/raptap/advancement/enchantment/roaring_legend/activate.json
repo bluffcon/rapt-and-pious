@@ -3,7 +3,7 @@
         "x": {
             "trigger": "item_durability_changed",
             "conditions": {
-                "durability": 0,
+                "durability": {"max": 0,"min": -10},
                 "item": {
                     "predicates": {
                         "enchantments": [

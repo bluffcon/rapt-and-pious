@@ -1,5 +1,4 @@
-advancement revoke @s only raptap:roaring_legend_enchantment
-advancement revoke @s only raptap:roaring_legend_enchantment2
+advancement revoke @s only raptap:enchantment/roaring_legend/activate
 weather thunder 72000t
 
 scoreboard players set .roaring_thunder raptap.state 1

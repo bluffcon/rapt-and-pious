@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "dealt": {"min": 6}
+                },
+                "player": {
+                    "flags": {
+                        "is_sneaking": false
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "raptap:enchants/awareness/hurt"
+    }
+}

@@ -15,5 +15,12 @@
     "anvil_cost": 1998,
     "slots": [
         "mainhand"
-    ]
+    ],
+    "effects": {
+        "mob_experience": [
+            {
+                "effect": {"type": "minecraft:multiply", "factor": 2}
+            }
+        ]
+    }
 }

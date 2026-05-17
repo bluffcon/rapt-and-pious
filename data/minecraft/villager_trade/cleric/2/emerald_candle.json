@@ -1,0 +1,22 @@
+{
+  "gives": {
+    "id": "minecraft:candle",
+    "components": {
+        "item_model": "arbiterlib:candle",
+        "item_name": {"translate": "block.minecraft.candle","fallback": "Candle"},
+        "custom_data": {
+            "arbiterlib": {"namespace":"raptap","id":"candle"}
+        },
+        "lore": [
+            {"translate":"item.raptap.candle.description", "fallback": "You're missing the ArbiterLib resource pack", "color": "gray", "italic": false},
+            {"translate":"id.minecraft", "fallback": "Minecraft","color": "blue", "italic": false}
+        ]
+    }
+  },
+  "max_uses": 12.0,
+  "reputation_discount": 0.05,
+  "wants": {
+    "id": "minecraft:emerald"
+  },
+  "xp": 7.5
+}
