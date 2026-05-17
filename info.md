@@ -104,3 +104,20 @@ Also:
 - Potatoes now have a 20% chance to yield poisonous potatoes instead of the vanilla 2%
 - Redstone water cascades no longer work
 - Beetroots now drop 1-2 crops by default (unaffected by Fortune)
+
+## Incompatibilities
+Rapt and Pious changes a lot of things about the game relating to block loot tables and the enchantment system. If a datapack is incompatible with ours, you can ask us to add its features you're missing to here. Here's how to tell if a datapack will be incompatible:
+- Uses any teams at all. Since every mob and player is assigned a team, this is problematic.
+- Changes these recipes:
+
+<details> 
+<summary>Click to reveal Recipes</summary>
+Candle
+</details>
+
+- Changes these loot tables:
+
+<details> 
+<summary>Click to reveal Block loot tables</summary>
+Harvesting honeycomb with shears, Beetroots, Potatoes, Wheat, Carrots, Glow Berries, Gold Ores (any), Lapis Ores (any), Candle
+</details>
